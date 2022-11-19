@@ -1,7 +1,9 @@
 # LR6
 Лабораторная работа №6
+
 ## Цель лабораторной работы
 Изучение базовых возможностей системы управления версиями, опыт работы с Git Api, опыт работы с локальным и удалённым репозиторием
+
 ## Ход работы
 * Изменение имени пользователя и email
 
@@ -70,3 +72,25 @@
 * Вывод всех коммитов в формате: сокращённый хэш + дата + имя автора + комментарий
 
 ![Снимок](https://user-images.githubusercontent.com/118620708/202865543-4f38ce09-e8f7-4d1d-91cb-6996a3d2e25f.PNG)
+
+## Лог использованных команд
+* git config --global user.name
+* git config --global user.email
+* git clone
+* git pull
+* git checkout
+* git log
+* git log --all
+* git merge
+* git add
+* git commit -m
+* git push
+* git branch -d
+* git add
+* git reset --hard HEAD~
+* git branch
+* git push origin
+* git log --pretty=format:%h - %an, %ar : %s
+
+## Вывод
+В ходе лабораторной работы я изучил базовые возможности системы управления версиями, получил опыт работы с Git Api, опыт работы с локальным и удалённым репозиторием
